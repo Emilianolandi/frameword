@@ -9,7 +9,7 @@
 *INDEX.HTML
 *.json
 *.dist
-*.php
+*preload.php
 .md
 # testing
 /tests
