@@ -1,0 +1,45 @@
+body{
+    /* background: repeating-linear-gradient(rgb(15, 14, 14), white); */
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla{
+    
+    background: -webkit-linear-gradient(rgb(8, 8, 8),rgb(109, 107, 107));
+
+    
+    table-layout: fixed; 
+    
+  width: 80%;
+  border-collapse:inherit;
+  border: 3px solid rgb(247, 246, 247);
+}
+.tabla th{
+    
+    border: 2px solid rgb(236, 229, 229);
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background: -webkit-linear-gradient(rgb(8, 8, 8), rgb(148, 145, 145));
+}
+.tabla td{
+    border: 2px solid #9f9f9f;
+    padding: 8px;
+    text-align: center;
+    color: azure;
+}
+.link{
+    border-radius: 20px;
+    padding: 5px;   
+    
+}
+.link a{
+    text-decoration: none;
+    padding: 5px;
+}

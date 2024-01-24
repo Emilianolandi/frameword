@@ -1,0 +1,127 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+      217deg,
+      rgba(251, 249, 249, 0.8),
+      rgba(82, 80, 80, 0) 70.71%
+    ), linear-gradient(127deg, rgba(30, 34, 39, 0.8), rgba(250, 250, 250, 0) 70.71%),
+    linear-gradient(336deg, rgba(243, 243, 246, 0.8), rgba(0, 0, 255, 0) 70.71%);
+
+    color: #333;
+  }
+
+  .cabeza {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+   background:  -webkit-linear-gradient(rgb(10, 3, 108),rgb(109, 107, 107)); 
+  }
+
+
+  header {
+    background: -webkit-linear-gradient(rgb(8, 8, 8),rgb(109, 107, 107)); 
+    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+.titulo{
+    color: #333;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .subtitulo{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+
+
+nav{
+ 
+  display:flex;
+  justify-content:baseline;
+  align-items:normal;
+  
+    background: linear-gradient(to bottom left, rgb(11, 12, 12) 50%, rgb(254, 254, 254) 50%);
+  }
+  
+
+
+.nav_principal{
+  background: linear-gradient( bottom right, blue, black);  
+    
+}
+
+.nav_principal li{
+    border:4px solid rgb(60, 56, 56);
+    border-radius: 10PX;
+    padding: 5px;
+    
+}
+.nav_principal li a{
+    /* background-color: aliceblue; */
+    color: rgb(11, 16, 21);
+    font-size:x-large;
+    text-decoration: none; 
+    padding: 10px 20px;
+    
+}
+
+
+
+/* footer{ */
+    
+  /* padding-bottom: 15px;
+  
+  display:inline;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  text-decoration:dashed;
+      position:inherit;
+      right: 20px;
+      width: -10%;
+      height: 40px;
+    opacity: 0.9; */
+      
+  /* } */
+  .pie_pagina{
+      margin-top: 20px;
+      background: -webkit-linear-gradient(rgb(8, 8, 8),rgb(109, 107, 107)); 
+
+      
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      text-decoration:dashed;
+      position:inherit;
+      
+      
+  }
+  
+  
+  
+  
+  
+  .section li{
+      display:inline-block;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      text-decoration:dashed;
+       padding-left: 120px;
+      margin-top: 20px;
+      padding-right: 20px;  
+  list-style-type: none;
+  font-size: x-large;
+      color: aliceblue;
+}
