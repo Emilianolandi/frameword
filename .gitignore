@@ -6,10 +6,9 @@
 /system
 /writable
 *LICENSE
-*INDEX.HTML
-*.json
-*.dist
+
 *preload.php
+
 # testing
 /tests
 
